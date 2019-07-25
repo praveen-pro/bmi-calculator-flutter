@@ -39,7 +39,7 @@ class ResultsPage extends StatelessWidget {
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: <Widget>[
                     Text(
-                      result,
+                      result.toUpperCase(),
                       style: kResultTextStyle,
                     ),
                     Text(
